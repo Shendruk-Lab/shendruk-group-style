@@ -1,2 +1,5 @@
 # shendruk-group-style
 Matplotlib style file that keeps the group figures looking consistent.
+In the directory dir/ is a PDF guide (shendrukGroupStyleGuide.pdf). It requires substantial improvement by group members to be more useful. The directory dir/src/ includes images and LaTeX to create the guide.
+In test/ are python scripts to make various types of figures. They should be good test cases to see if things are generally working.
+In src/ are the two source codes. The file src/shendrukGroupStyle.mplstyle is the matplotlib style file and needs to be placed wherever matplotlib style files are (for example on my mac they are found at /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib). The other file src/shendrukGroupFormat.py. This defines colour names, colourmaps, filled errorbars, etc. See the test codes and the guide for how to include these in your python scripts.
