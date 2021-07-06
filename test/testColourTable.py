@@ -11,9 +11,9 @@ import shendrukGroupFormat as ed
 # import matplotlib as mpl
 # print mpl.get_configdir()
 
-print ed.saphire
-print ed.clist().cyclic
-print ed.clist().cyclic["saphire"]
+print(ed.saphire)
+print(ed.clist().cyclic)
+print(ed.clist().cyclic["saphire"])
 
 ed.plot_colortable(ed.clist().cyclic, "Cyclic" )
 plt.savefig( 'tableCyclic.pdf' )

@@ -1,7 +1,7 @@
-from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import pyplot as plt
+import mpl_toolkits
+from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
-
 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')

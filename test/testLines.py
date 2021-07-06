@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Use our custom style
+# print(plt.style.available)
 plt.style.use('shendrukGroupStyle')
 import shendrukGroupFormat as ed
 
