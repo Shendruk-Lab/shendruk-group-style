@@ -12,7 +12,7 @@ Do the following:
 ```
 #handle graph formatting and style
 plt.style.use('shendrukGroupStyle')
-import shendrukGroupFormat_py3 as ed
+import shendrukGroupFormat as ed
 MYLW=1.0 #line width
 ```
 
